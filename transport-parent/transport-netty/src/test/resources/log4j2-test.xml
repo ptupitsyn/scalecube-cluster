@@ -13,9 +13,9 @@
     <Logger name="io.scalecube.cluster.BaseTest" level="info"/>
     <Logger name="io.scalecube.cluster.utils.BaseTest" level="info"/>
     <Logger name="io.scalecube.transport.netty.BaseTest" level="info"/>
-    <Logger name="reactor.util" level="${env:reactorUtilLogLevel:-warn}"/>
-    <Logger name="reactor.core" level="${env:reactorCoreLogLevel:-warn}"/>
-    <Logger name="reactor.netty" level="${env:reactorNettyLogLevel:-warn}"/>
+    <Logger name="reactor.util" level="${env:reactorUtilLogLevel:-debug}"/>
+    <Logger name="reactor.core" level="${env:reactorCoreLogLevel:-debug}"/>
+    <Logger name="reactor.netty" level="${env:reactorNettyLogLevel:-debug}"/>
     <Logger name="io.netty" level="${env:nettyLogLevel:-warn}"/>
     <Logger name="io.scalecube.cluster.transport" level="${env:clusterTransport:-debug}"/>
     <Logger name="io.scalecube.cluster.fdetector" level="${env:clusterFdetector:-info}"/>
